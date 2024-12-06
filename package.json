@@ -1,0 +1,25 @@
+{
+  "name": "dont-swear-api",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@upstash/vector": "^1.1.7",
+    "csv-parser": "^3.0.0",
+    "hono": "^4.6.12",
+    "langchain": "^0.3.6",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "wrangler": "^3.92.0"
+  },
+  "type": "module"
+}
