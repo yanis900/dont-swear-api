@@ -1,3 +1,4 @@
 /node_modules
 wrangler.toml
 seed.ts
+words_dataset.csv
